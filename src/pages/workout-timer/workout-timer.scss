@@ -1,0 +1,57 @@
+page-workout-timer {
+
+    .item-button{
+        height: 100px;
+    }
+    .label-md{
+        margin: 8px 0px 0px 0 !important;
+    }
+    .item-md{
+        padding-left: 11px;
+    }
+    .item-md.item-block .item-inner{
+        padding-right: 11px;
+    }
+    .desc{
+        float: left;
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;        
+    }
+    .img{
+        float: right;
+        width: 30%;
+        height: 100px;
+    }
+
+    ion-item{
+        background-color: transparent !important;
+    }
+    .itm{
+        background-color: color($colors,light);
+        padding: 10px;
+        height: 120px;
+        border-radius: 5px;
+        position: relative;
+    }
+    .mbottom{
+      bottom: 10px;
+      position: fixed;
+      z-index: 999;
+    }
+    .outbut{
+        position: relative;        
+    }
+    .inbut{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;   
+        width: 90%;
+        left: 5%;
+        height: 50px;
+        font-size: 2rem;
+    }
+}
+

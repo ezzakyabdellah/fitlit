@@ -1,0 +1,9 @@
+<!-- Generated template for the ProgressBarComponent component -->
+
+
+  <div class="mlabel">{{30-progress}} Day left</div>
+<div class="progress-outer">
+  <div class="progress-inner" [style.width]="(progress/30)*100 + '%'">
+      {{(progress/30)*100}}%
+  </div>
+</div>

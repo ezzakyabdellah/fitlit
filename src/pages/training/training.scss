@@ -1,0 +1,62 @@
+page-training {
+    .item-button{
+        height: 100px;
+    }
+    .label-md{
+        margin: 8px 0px 0px 0 !important;
+    }
+    .item-md{
+        padding-left: 11px;
+    }
+    .item-md.item-block .item-inner{
+        padding-right: 11px;
+    }
+    .tDay{
+        //background-color: #cdd2cc;
+        background-color: color($colors,light);
+        padding: 5px;
+        height: 70px;
+        border-radius: 5px;
+    }
+    .progress{
+        // float: right;
+        // margin-right: 3px;
+        // border-radius: 5px;
+        // padding: 5px;
+        float: right;
+        margin-right: 15px;
+        /* border-radius: 5px; */
+        /* padding: 5px; */
+        //top: -5px;
+        position: relative;
+    }
+    ion-item{
+        background-color: transparent !important;
+    }
+    .labelDay{
+        height: 100%;
+        /* width: 100%; */
+        top: 4px;
+        /* left: 0%; */
+        /* right: 30%; */
+        overflow: overlay;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        padding-left: 20px;
+        font-size: 2.5rem;
+    }
+    .mHeader{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+    .scroll-content{
+        top: 30%;
+        background-image: url(../assets/imgs/fitnessBackgound.jpg);
+        //background-repeat: no-repeat;
+        background-size: cover;
+        //background-attachment: fixed;
+    }
+}

@@ -1,0 +1,50 @@
+progress-bar1 {
+    
+       .progress-outer {
+            /*width: 90%; */
+            /* margin: 10px 5%; */
+            padding: 0px;
+            text-align: center;
+            background-color: #f4f4f44f;
+            //border: 0px solid #dcdcdc;
+            color: #fff;
+            position: relative;
+            height: 65px;
+       }
+       .mlabel {
+        /* width: 100%; */
+        /* background-color: #f4f4f4; */
+        /* border: 1px solid #dcdcdc; */
+        color: #fff;
+        font-size: 5rem;
+        float: left;
+        position:  fixed;
+        padding-left: 25px;
+      }
+    
+       .progress-inner {
+           //float: left;
+            height: 100%;
+            //min-width: 15%;
+            white-space: nowrap;
+            overflow: hidden;
+            //padding: 5px;
+            //border-radius: 20px;
+            background-color: map-get($colors, danger);
+       }
+       .rightButn{
+        /* float: right; */
+        position: absolute;
+        top: 6px;
+        right: 5px;
+       }
+       ion-icon{
+           font-size: 5rem;
+           color: color($colors,light)
+       }
+       a{
+           padding-right: 30px;
+           //top: 10px;
+       }
+       
+   }

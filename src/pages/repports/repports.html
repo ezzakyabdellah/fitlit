@@ -1,0 +1,91 @@
+<!--
+  Generated template for the RepportsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Repports</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div>
+        <div>
+            <h1>2</h1>
+            <h2>Workout</h2>
+        </div>
+        <div>
+            <h1>0</h1>
+            <h2>Kcal</h2>
+        </div>
+        <div>
+            <h1>0s</h1>
+            <h2>Time</h2>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h2>history</h2>
+        </div>
+        <div>
+            <div>
+                <h4>S</h4>
+                <div class="circle3"></div>
+                <h3>dateDate</h3>
+            </div>
+            <div>
+                <h4>M</h4>
+                <div class="circle3"></div>
+                <h3>dateDate</h3>
+            </div>
+            <div>
+                <h4>T</h4>
+                <div class="circle3"></div>
+                <h3>dateDate</h3>
+            </div>
+            <div>
+                <h4>W</h4>
+                <div class="circle3"></div>
+                <h3>dateDate</h3>
+            </div>
+            <div>
+                <h4>T</h4>
+                <div class="circle3"></div>
+                <h3>dateDate</h3>
+            </div>
+            <div>
+                <h4>F</h4>
+                <div class="circle3"></div>
+                <h3>dateDate</h3>
+            </div>
+            <div>
+                <h4>S</h4>
+                <div class="circle3"></div>
+                <h3>dateDate</h3>
+            </div>
+        </div>
+        <div>
+            RECORDS
+        </div>
+    </div>
+
+    <div>
+        <h2>Weight</h2>
+        <div><button class="float right side">add weight</button></div>
+        <!-- statistics -->
+        <div style="display: block;">
+                <canvas baseChart width="300" height="400" [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions"
+                    [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType" (chartHover)="chartHovered($event)"
+                    (chartClick)="chartClicked($event)"></canvas>
+            </div>
+    </div>
+    <div>
+        BMI calculater
+    </div>
+
+</ion-content>

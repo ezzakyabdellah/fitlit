@@ -1,0 +1,32 @@
+progress-bar {
+    
+       .progress-outer {
+           width: 90%;
+           margin: 10px 5%;
+           padding: 3px;
+           text-align: center;
+           background-color: #f4f4f4;
+           border: 1px solid #dcdcdc;
+           color: #fff;
+           border-radius: 20px;
+       }
+       .mlabel{
+            margin: 10px 5%;
+            width: 90%;
+            /* background-color: #f4f4f4; */
+            /* border: 1px solid #dcdcdc; */
+            color: #fff;
+            font-size: 2rem;        
+       }
+    
+       .progress-inner {
+           height: 3px;
+           //min-width: 15%;
+           white-space: nowrap;
+           overflow: hidden;
+           //padding: 5px;
+           border-radius: 20px;
+           background-color: map-get($colors, danger);
+       }
+    
+   }

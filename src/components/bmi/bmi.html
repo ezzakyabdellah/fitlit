@@ -1,0 +1,23 @@
+<!-- Generated template for the BmiComponent component -->
+<ion-card>
+  <ion-card-content>
+  <!-- Height item-->   
+  <ion-item>
+    <ion-label>Height (M)</ion-label>
+    <ion-input [(ngModel)]="height"></ion-input>
+  </ion-item>
+  <!-- Weight item-->
+  <ion-item>
+      <ion-label>Weight (KG)</ion-label>
+      <ion-input [(ngModel)]="weight"></ion-input>
+    </ion-item>
+
+    <button ion-button color="dark" (click)="calculateBmi()">Calculate</button>
+
+</ion-card-content>
+</ion-card>
+
+<div *ngIf="BMI" text-center>
+  <h1> Your BMI is: {{ BMI.BMI }}</h1>
+  <h2>This is classified as: {{BMI.classification}}</h2>
+</div>

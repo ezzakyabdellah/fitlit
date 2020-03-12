@@ -1,0 +1,4 @@
+class BMI{
+    BMI;
+    classification;
+}

@@ -1,0 +1,49 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+::-webkit-scrollbar {
+    width: 0px;
+  }
+.content{
+    background-image: url(../assets/imgs/fitnessBackgound.jpg); 
+    background-size: cover;    
+}
+/* .scroll-content{
+    top: 30%;
+    background-image: url(../assets/imgs/fitnessBackgound.jpg);
+} */
+ion-item{
+    background-color: transparent;
+}
+.gradient-header .toolbar-background {
+    background: -moz-linear-gradient(rgba(0,0,0,0.3) 30%, rgba(0,0,0,0.5) 100%);
+    background: -webkit-linear-gradient(rgba(0,0,0,0.3) 30%, rgba(0,0,0,0.5) 100%);
+    background: linear-gradient(rgba(0,0,0,0.3) 30%, rgba(0,0,0,0.5) 100%);
+  }
+.toolbar-title {
+    color: color($colors, light);
+}
+ion-navbar{
+    ion-icon {
+      color: color($colors, light);
+    }
+}
+ion-navbar{ .toolbar-background {
+        background: -moz-linear-gradient(rgba(0,0,0,0.3) 30%, rgba(0,0,0,0.5) 100%);
+        background: -webkit-linear-gradient(rgba(0,0,0,0.3) 30%, rgba(0,0,0,0.5) 100%);
+        background: linear-gradient(rgba(0,0,0,0.3) 30%, rgba(0,0,0,0.5) 100%);
+      }
+}

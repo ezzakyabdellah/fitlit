@@ -1,0 +1,28 @@
+<!--
+  Generated template for the TrackerPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar class="gradient-header">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Tracker</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content [ngStyle]="{'background-image': 'url(assets/imgs/fitnessBackgound.jpg)' }" class="mHeader">
+  <div class="workoutStyle">
+    <h1>{{doingSet}}/{{params.length}}</h1>
+  <h1>{{workout}}</h1>
+</div>
+</ion-content>
+<ion-footer>
+    <ion-toolbar position="bottom" transparent>
+        <progress-bar1 [paused]="paused" [progress]="timeWorkout - timeLeft + 1" [Of]="timeWorkout" [Text]="totalStep>1 ? (totalStep - stepLeft + 1) +'/'+ totalStep : (timeWorkout - timeLeft + 1) +'/'+ timeWorkout +' s'"  (pClick)="playPause()"></progress-bar1>        
+        <!-- <progress-bar1 [progress]="totalStep - stepLeft + 1" [Of]="totalStep" (pClick)="playPause()"></progress-bar1>         -->
+    </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,17 @@
+<!-- Generated template for the ProgressBarComponent component -->
+
+
+  <!-- <div class="mlabel">{{30-progress}} Day left</div> -->
+  <div>
+      <div class="progress-outer">
+          <div class="mlabel">{{Text}}</div>
+          <div class="progress-inner" [style.width]="(progress/Of)*100 + '%'">             
+          </div>
+          <div  class="rightButn" >
+              <a (click)="mClick()"><ion-icon name="md-play" *ngIf="paused"></ion-icon>
+              <ion-icon name="md-pause" *ngIf="!paused"></ion-icon></a>
+          </div>
+        </div>
+        
+  </div>
+ 
